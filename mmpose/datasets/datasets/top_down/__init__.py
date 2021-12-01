@@ -1,5 +1,6 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 from .topdown_aic_dataset import TopDownAicDataset
+from .topdown_commercial_coco_dataset import TopDownCommercialCocoDataset
 from .topdown_coco_dataset import TopDownCocoDataset
 from .topdown_coco_wholebody_dataset import TopDownCocoWholeBodyDataset
 from .topdown_crowdpose_dataset import TopDownCrowdPoseDataset
@@ -17,5 +18,5 @@ __all__ = [
     'TopDownCrowdPoseDataset', 'TopDownMpiiDataset', 'TopDownMpiiTrbDataset',
     'TopDownOCHumanDataset', 'TopDownPoseTrack18Dataset',
     'TopDownJhmdbDataset', 'TopDownMhpDataset', 'TopDownH36MDataset',
-    'TopDownHalpeDataset'
+    'TopDownHalpeDataset', 'TopDownCommercialCocoDataset'
 ]
